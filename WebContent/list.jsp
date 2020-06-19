@@ -27,14 +27,10 @@
 
 	if (count > 0) {
 		
-		//articleList = dbPro.getArticles(startRow,pageSize); // (1,10) mysql의 limit (시작하는 index, 몇개)
-
-		//oracle 은 rnum (시작하는 index부터 끝나는 index)
 		articleList = dbPro.getArticles(startRow, endRow); // startRow 1 , endRow 10 
 	}
 
 	number = count - (currentPage - 1) * pageSize;
-	// ?after 경로로 지정해놓으면 파일이름 변경하면 css가 변함
 %>
 <!DOCTYPE html>
 <html>

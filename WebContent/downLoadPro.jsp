@@ -21,7 +21,7 @@ public static String con(String s){
 try{
 	String SAVEFOLDER = request.getSession().getServletContext().getRealPath("/fileSave");// real폴더안에 
 	String filename = request.getParameter("filename");
-	File file = new File(con(SAVEFOLDER + File.separator+ filename));  //TODO: ejkim  경로
+	File file = new File(con(SAVEFOLDER + File.separator+ filename));
 	byte b[] = new byte[(int)file.length()];
 	response.setHeader("Accept-Ranges", "bytes");
 	String strClient = request.getHeader("User-Agent");

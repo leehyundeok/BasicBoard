@@ -1,24 +1,6 @@
 package ch13.model;
 
 import java.sql.Timestamp;
-// MVC(Model(외부연계 - DB연동, filesystem연동.. 영상처리..)/view/ controller(servlet파일로 구성되고 화면전환-forward)
-// model
-// DB Connection - pool
-// DB Access - DAO -CRUD (insert, delete, update, select)
-// 내부연계
-// view(JSP) 로 어떻게 전달할건데..
-// VO(Value Objsect) = DTO ( Dat Transfer Object)
-
-//void main() {
-//	
-//	request_Generate_Invoice(calculatePayroll(), 각급여결과, 전표번호, 급여일자, 실별자);
-//}
-//
-//
-//InvoiceDTO request_Generate_Inovice( int calPayroll, String wjavyqjsgh, String rmqdudlfwk, String tlrqufwk){
-//	InvoiceDTO returnInvoiceDTO = requestInovice();
-//	return InovoiceDTO;
-//}
 
 
 

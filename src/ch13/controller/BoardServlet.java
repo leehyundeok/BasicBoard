@@ -41,7 +41,6 @@ public class BoardServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		doPost(request, response);
 	}
 
@@ -60,7 +59,6 @@ public class BoardServlet extends HttpServlet {
 			viewPage="writeForm.jsp";
 		}
 		if(action.equals("writerPro.do")) {
-			// ejkim.a for file upload // ejkim.test
 			String realFolder = "";//웹 어플리케이션상의 절대 경로
 			String filename = "";
 					
@@ -70,7 +68,7 @@ public class BoardServlet extends HttpServlet {
 			int maxSize = 5*1024*1024;  //최대 업로될 파일크기 5Mb
 
 			ServletContext context = getServletContext();
-			//현재 jsp페이지의 웹 어플리케이션상의 절대 경로를 구한다
+			//현재 jsp페이지의 웹 어플리케이션상의 절대 경로
 			realFolder = context.getRealPath(saveFolder);  
 			MultipartRequest multi = null;
 			try{
@@ -94,7 +92,6 @@ public class BoardServlet extends HttpServlet {
 				art.setRe_level(Integer.parseInt(multi.getParameter("re_level")));
 				art.setReg_date(new Timestamp(System.currentTimeMillis()));
 				art.setIp(request.getRemoteAddr());
-				// ejkim.a for file upload
 				art.setFileName(filename);
 
 				BoardDBBean dbPro = BoardDBBean.getInstance();
@@ -196,7 +193,6 @@ public class BoardServlet extends HttpServlet {
 			String id= request.getParameter("id");
 			String password = request.getParameter("password");
 			String email= request.getParameter("email");
-			//PrintWriter out = response.getWriter();
 			//한글 깨짐현상 때문에 
 			response.setContentType("text/html;charset=UTF-8");
 			try {
@@ -217,11 +213,6 @@ public class BoardServlet extends HttpServlet {
 				}else {
 					// 비밀번호틀림
 					request.setAttribute("checkId", 1);
-					/*
-					 * out.print("<script type=text/javascript");
-					 * out.print("alter('아이디와 패스워드가 일치하지 않습니다.');"); out.print("history.back();");
-					 * out.print("</script>");
-					 */
 				}
 			}catch(Exception e) {
 				e.printStackTrace();
