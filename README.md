@@ -26,9 +26,17 @@
 
 3. 글 삭제
 * 비밀번호 확인 작업필요
+
+
 ![image](https://user-images.githubusercontent.com/62640249/86765585-4db2c900-c084-11ea-9e08-754c468ddda0.png)
+
+
 * 게시글이 목록에서 삭제된 모습
+
+
 ![image](https://user-images.githubusercontent.com/62640249/86765680-73d86900-c084-11ea-8992-18424b75eff0.png)
+
+
 4. 
 * 파일 다운로드
 ![image](https://user-images.githubusercontent.com/62640249/86765315-f876b780-c083-11ea-8bb5-e7342332d338.png)
