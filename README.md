@@ -22,6 +22,8 @@
 2. 
 댓글 기능
 ![image](https://user-images.githubusercontent.com/62640249/86765452-25c36580-c084-11ea-9c1b-55465c7940a2.png)
+
+
 3. 글 삭제
 * 비밀번호 확인 작업필요
 ![image](https://user-images.githubusercontent.com/62640249/86765585-4db2c900-c084-11ea-9e08-754c468ddda0.png)
