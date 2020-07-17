@@ -7,11 +7,9 @@
 
 ## 개발환경
 
-### apache-tomact-6.5 49
-### Oracle Database 11g Release 2
-
 * eclipse(Java servlet)
 * apatche tomcat
+
 ### 회원가입 화면
 #### 회원정보를 입력후 가입버튼을 눌러 테이블에 아이디 중복값이 있는지 확인후 입력한 값을 저장
 ![캡처](https://user-images.githubusercontent.com/62640249/86761586-07a83600-c081-11ea-8b68-75a3aeb43aee.PNG)
