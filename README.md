@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/62640249/86764567-198ad880-c083-11ea-96d1-edd97659b0b2.png)
 ### 게시글 조회
 #### 작성된 게시물을 클릭 후 게시글 수정, 삭제, 댓글, 업로드된 파일 다운로드 기능 구현 가능
-1. 
+
 * 글 수정
 
 
@@ -27,28 +27,27 @@
 ![image](https://user-images.githubusercontent.com/62640249/86765223-d715cb80-c083-11ea-9b57-c35296ba4b8c.png)
 
 
-2. 
-댓글 기능
+
+* 댓글 기능
 
 
 ![image](https://user-images.githubusercontent.com/62640249/86765452-25c36580-c084-11ea-9c1b-55465c7940a2.png)
 
 
-3. 글 삭제
-* 비밀번호 확인 작업필요
+* 글 삭제
+1. 비밀번호 확인 작업필요
 
 
 ![image](https://user-images.githubusercontent.com/62640249/86765585-4db2c900-c084-11ea-9e08-754c468ddda0.png)
 
 
-* 게시글이 목록에서 삭제된 모습
+2. 게시글이 목록에서 삭제된 모습
 
 
 ![image](https://user-images.githubusercontent.com/62640249/86765680-73d86900-c084-11ea-8992-18424b75eff0.png)
 
-
-4. 
-* 파일 다운로드
+ 
+3. 파일 다운로드
 
 
 ![image](https://user-images.githubusercontent.com/62640249/86765315-f876b780-c083-11ea-8bb5-e7342332d338.png)
